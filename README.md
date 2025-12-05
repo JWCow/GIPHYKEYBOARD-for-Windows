@@ -87,11 +87,11 @@ Choose the version that matches your AutoHotkey installation:
 
 ### AutoHotkey v1 Users
 1. Navigate to the `AHK_v1` folder
-2. Double-click `Run.ahk` to start the program
+2. Double-click `Giphy_Desktop_v1.ahk` to start the program
 
 ### AutoHotkey v2 Users
 1. Navigate to the `AHK_v2` folder
-2. Double-click `Run.ahk` to start the program
+2. Double-click `Giphy_Desktop_v2.ahk` to start the program
 
 Once running:
 1. You should see the AutoHotkey icon in your system tray
@@ -102,7 +102,7 @@ Once running:
 - To have the program start automatically with Windows:
   1. Press `Win + R`
   2. Type `shell:startup`
-  3. Create a shortcut to the `Run.ahk` file (from your chosen version folder) in this folder
+  3. Create a shortcut to the `Giphy_Desktop_v1.ahk` or `Giphy_Desktop_v2.ahk` file (from your chosen version folder) in this folder
 - To quit the program, right-click the AutoHotkey icon in the system tray and select "Exit"
 - First launch might take a few seconds as it sets up your browser
 
