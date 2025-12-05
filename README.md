@@ -4,7 +4,7 @@ A modern, sleek GIPHY client for Windows that makes it easy to search, save, and
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/version-1.0.11-blue.svg)](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases)
+[![Version](https://img.shields.io/badge/version-1.0.12-blue.svg)](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Windows](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows)
 [![AutoHotkey](https://img.shields.io/badge/AutoHotkey-v1%20%7C%20v2-red.svg)](https://www.autohotkey.com/)
@@ -65,8 +65,8 @@ A modern, sleek GIPHY client for Windows that makes it easy to search, save, and
 
 ## 📦 Latest Updates
 
+- **[v1.0.12](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases/tag/v1.0.12)** - Fixed private GIF imports and moved storage to AppData
 - **[v1.0.11](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases/tag/v1.0.11)** - Added hover buttons and GIF compression
-- **[v1.0.10](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases/tag/v1.0.10)** - Improved GIF handling and compression
 - **[v1.0.9](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases/tag/v1.0.9)** - Enhanced UI and performance
 - **[v1.0.8](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases/tag/v1.0.8)** - Improved UI consistency and dark theme
 - **[v1.0.7](https://github.com/JWCow/GIPHYKEYBOARD-for-Windows/releases/tag/v1.0.7)** - Enhanced My GIFs management
@@ -139,7 +139,7 @@ The app runs as a highly optimized browser instance with:
 * The hotkey functionality is Windows-only (requires AutoHotkey)
 * The web interface itself is cross-platform compatible
 * Uses a dedicated user profile to avoid conflicts with your main browser
-* All favorites are stored locally in your browser
+* All favorites are stored locally in `%APPDATA%\GiphyPicker`
 
 ## 📜 License
 
@@ -151,7 +151,7 @@ MIT License - feel free to modify and share!
 * [CHANGELOG.md](CHANGELOG.md) - Version history and updates
 
 ## Latest Updates
-Check out [Version 1.0.11](CHANGELOG.md#1011---2024-01-24) for the latest improvements including:
-- Intuitive hover buttons for quick actions (copy and download)
-- Smart GIF compression for optimal file sizes
-- Improved GIF handling and performance optimizations
+Check out [Version 1.0.12](CHANGELOG.md#1012---2025-12-05) for the latest improvements including:
+- Fixed issue with importing private GIFs
+- Moved data storage to permanent AppData location
+- Improved stability and error handling

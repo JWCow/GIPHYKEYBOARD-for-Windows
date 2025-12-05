@@ -43,6 +43,6 @@ class Browser {
             . " --disable-background-mode"
             . " --disable-backing-store-limit"
             . " --disable-pinch"
-            . " --user-data-dir=""" A_Temp "\GiphyPicker"""
+            . " --user-data-dir=""" A_AppData "\GiphyPicker"""
     }
 }

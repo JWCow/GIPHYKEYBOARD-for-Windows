@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.12] - 2025-12-05
+
+### Fixed
+- Fixed issue where importing private GIFs would fail
+- Moved application data storage to `%APPDATA%` for permanence
+- Improved error handling during GIF imports
+
 ## [1.0.11] - 2024-01-24
 
 ### Added
